@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://<username>.github.io/<repository-name>/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}

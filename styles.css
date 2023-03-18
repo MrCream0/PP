@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav a {
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+nav .active {
+    color: #007bff;
+}
+
+/* Header */
+header {
+    background-color: #f8f9fa;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+header h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+header img {
+    max-width: 300px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* About */
+#about {
+    background-color: #fff;
+    padding: 6rem 0;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+#about h3 {
+    margin-bottom: 1.5rem;
+}
+
+#about .list-group-item {
+    border: none;
+    padding: 0.75rem 0;
+    font-size: 1.2rem;
+}
+
+/* Skills */
+#skills {
+    background-color: #f8f9fa;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill .skill-name {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.skill .progress {
+    height: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.skill .progress-bar {
+    background-color: #007bff;
+}
+
+/* Projects */
+#projects {
+    background-color: #fff;
+    padding: 6rem 0;
+}
+
+#projects .card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#projects .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#projects .card-body {
+    padding: 1.25rem;
+}
+
+#projects h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#projects p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+#projects .card-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Contact */
+#contact {
+    background-color: #f8f9fa;
+    padding: 6rem 0;
+}
+
+#contact .form-control {
+    margin-bottom: 1.5rem;
+}
+
+#contact button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #0069d9;
+}
